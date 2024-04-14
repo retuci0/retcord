@@ -1,0 +1,5 @@
+formation-studio
+requests
+pypresence
+pillow
+pyperclip

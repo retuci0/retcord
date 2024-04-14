@@ -1,0 +1,12 @@
+todo
+
+configs/configs.json
+
+outputs/nitro_codes.txt
+outputs/tokens.txt
+outputs/valid_tokens.txt
+
+__pycache__
+configs/__pycache__
+misc/__pycache__
+tools/__pycache__
