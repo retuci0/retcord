@@ -68,7 +68,7 @@ def create_widgets(self):
     create_tooltip(self.discord_button, "My Discord, in case you wanted to contact me (I'm not that important, ik).")
 
     #Custom logo
-    self.customize_button = ttk.Button(self.master, text="Customize logo", command=lambda: change_logo.main(self))
+    self.customize_button = ttk.Button(self.master, text="Customize logo", command=lambda: change_logo(self))
     self.customize_button.place(relx=0.01, rely=0.88)
     create_tooltip(self.customize_button, "Select one of the preset logos. If you want an actual custom one, go to the source code, in line 135 and change the path to a custom one.")
 
